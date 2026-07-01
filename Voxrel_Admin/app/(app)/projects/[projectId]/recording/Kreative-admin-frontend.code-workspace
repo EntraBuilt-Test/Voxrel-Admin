@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../Kreactive-backend-main"
+		},
+		{
+			"path": "../../../../../../Kreative-freelancer-frontend"
+		},
+		{
+			"path": "../../../../../../Kreative-superadmin-frontend"
+		}
+	],
+	"settings": {}
+}
