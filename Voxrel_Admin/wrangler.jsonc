@@ -1,16 +1,16 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"main": ".open-next/worker.js",
-	"name": "samhita-admin",
+	"name": "voxrel-admin",
 	"compatibility_date": "2026-01-27",
-	"account_id": "01c9697d844727ef4ba702eff67455a3",
+	"account_id": "c4615b9cf8f5999e259748ba032fda97",
 	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
 	},
 	"vars": {
-		"NEXT_PUBLIC_API_URL": "https://samhita-backend-tlpg.onrender.com"
+		"NEXT_PUBLIC_API_URL": "https://voxrel-backend.onrender.com"
 	},
 	// Temporarily disabled - can be re-enabled after successful deployment
 	// "services": [
