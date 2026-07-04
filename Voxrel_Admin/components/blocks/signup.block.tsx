@@ -86,7 +86,7 @@ export function SignupForm({
             <Card>
                 <CardHeader className="text-center">
                     <div className="flex justify-center mb-4">
-                        <img src="/kreativs-ai-logo.jpg" alt="KreativS AI Logo" className="w-16 h-16 object-contain" />
+                        <img src="/voxrel-logo.png" alt="Voxrel Logo" className="w-16 h-16 object-contain drop-shadow-[0_0_12px_rgba(167,139,250,0.5)]" />
                     </div>
                     <CardTitle className="text-xl">Create an Account</CardTitle>
                     <CardDescription>
@@ -115,7 +115,7 @@ export function SignupForm({
                                     <Input
                                         id="email"
                                         type="email"
-                                        placeholder="m@kreactive.com"
+                                        placeholder="m@voxrel.com"
                                         value={signupForm.values.email}
                                         onChange={signupForm.handleChange('email')}
                                         disabled={isLoading}
