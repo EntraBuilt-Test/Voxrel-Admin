@@ -389,6 +389,8 @@ export default function ManageTaskPage() {
                                             </tr>
                                         </thead>
                                         <tbody className="[&_tr:last-child]:border-0">
+                                            
+
                                             {tasks.map((task) => (
                                                 <tr key={getTaskId(task)} className="border-b transition-colors hover:bg-muted/50">
                                                     <td className="p-4 align-middle font-medium max-w-[200px] truncate">
