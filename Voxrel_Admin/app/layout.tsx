@@ -15,8 +15,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-    title: "Kreactive App",
-    description: "Kreactive App is a platform for transcripting and labeling audio and video files.",
+    title: "Voxrel | Admin",
+    description: "Voxrel is a platform for transcripting and labeling audio and video files.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -26,8 +26,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                 <QueryProvider>
                     <ThemeProvider
                         attribute="class"
-                        defaultTheme="light"
-                        enableSystem
+                        defaultTheme="dark"
+                        forcedTheme="dark"
                         disableTransitionOnChange
                     >
                         {children}
