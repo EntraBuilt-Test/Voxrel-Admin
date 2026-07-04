@@ -124,7 +124,9 @@ export default function UserAnalyticPage() {
                                 <p className="text-2xl font-bold">{analyticsData.totalUsers.count.toLocaleString()}</p>
                                 {renderTrend(analyticsData.totalUsers.growth)}
                             </div>
-                            <Users className="h-8 w-8 text-blue-600" />
+                            <div className="p-3 bg-blue-500/10 rounded-full shadow-[0_0_18px_-2px_rgba(59,130,246,0.7)] border border-blue-500/30">
+                                <Users className="h-6 w-6 text-blue-400" />
+                            </div>
                         </div>
                     </CardContent>
                 </Card>
@@ -138,7 +140,9 @@ export default function UserAnalyticPage() {
                                 <p className="text-2xl font-bold">₹{analyticsData.revenuePerUser.amount.toLocaleString()}</p>
                                 {renderTrend(analyticsData.revenuePerUser.growth)}
                             </div>
-                            <DollarSign className="h-8 w-8 text-green-600" />
+                            <div className="p-3 bg-emerald-500/10 rounded-full shadow-[0_0_18px_-2px_rgba(16,185,129,0.7)] border border-emerald-500/30">
+                                <DollarSign className="h-6 w-6 text-emerald-400" />
+                            </div>
                         </div>
                     </CardContent>
                 </Card>
@@ -152,7 +156,9 @@ export default function UserAnalyticPage() {
                                 <p className="text-2xl font-bold">{analyticsData.taskCompletion.rate}%</p>
                                 {renderTrend(analyticsData.taskCompletion.growth)}
                             </div>
-                            <Target className="h-8 w-8 text-purple-600" />
+                            <div className="p-3 bg-violet-500/10 rounded-full shadow-[0_0_18px_-2px_rgba(167,139,250,0.7)] border border-violet-500/30">
+                                <Target className="h-6 w-6 text-violet-400" />
+                            </div>
                         </div>
                     </CardContent>
                 </Card>
@@ -166,7 +172,9 @@ export default function UserAnalyticPage() {
                                 <p className="text-2xl font-bold">{analyticsData.tasksPerUser.average}</p>
                                 {renderTrend(analyticsData.tasksPerUser.growth)}
                             </div>
-                            <User className="h-8 w-8 text-orange-600" />
+                            <div className="p-3 bg-pink-500/10 rounded-full shadow-[0_0_18px_-2px_rgba(244,114,182,0.7)] border border-pink-500/30">
+                                <User className="h-6 w-6 text-pink-400" />
+                            </div>
                         </div>
                     </CardContent>
                 </Card>
